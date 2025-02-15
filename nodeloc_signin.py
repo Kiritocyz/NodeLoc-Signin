@@ -67,8 +67,8 @@ if COOKIE_ENV:
         'sec-fetch-dest': "empty",
         'referer': "https://www.nodeloc.com/",
         'accept-language': "zh-CN,zh;q=0.9,en;q=0.8",
-		'Connection': "keep-alive"
-		'X-Csrf-Token': x_token
+		'Connection': "keep-alive",
+		'X-Csrf-Token': x_token,
         'Cookie': COOKIE_ENV
     }
 
