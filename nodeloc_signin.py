@@ -61,14 +61,15 @@ if COOKIE_ENV:
         'sec-ch-ua': "\"Not A(Brand\";v=\"24\", \"Google Chrome\";v=\"122\", \"Chromium\";v=\"122\"",
         'sec-ch-ua-mobile': "?0",
         'sec-ch-ua-platform': "\"Windows\"",
-		'origin': "https://www.nodeloc.com",
+	'origin': "https://www.nodeloc.com",
         'sec-fetch-site': "same-origin",
         'sec-fetch-mode': "cors",
         'sec-fetch-dest': "empty",
         'referer': "https://www.nodeloc.com/",
         'accept-language': "zh-CN,zh;q=0.9,en;q=0.8",
-		'Connection': "keep-alive",
-		'X-Csrf-Token': x_token,
+	'Connection': "keep-alive",
+	'X-Csrf-Token': x_token,
+	'X-Http-Method-Override': "PATCH",
         'Cookie': COOKIE_ENV
     }
 
