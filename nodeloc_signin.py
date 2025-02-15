@@ -93,13 +93,7 @@ if COOKIE_ENV:
                 pushplus_ts(pushplus_token, "bincloud登录", message)
     except Exception as e:
         print("发生异常:", e)
-        print("实际响应内容:", response.text)
-        # if telegram_bot_token and chat_id:
-            # if "Mike Hand" in response.text:
-                # telegram_Bot(telegram_bot_token, chat_id, "✅BinCloud登录成功!")
-            # else:
-                # telegram_Bot(telegram_bot_token, chat_id, "❌登录BinCloud失败了!")
+        print("实际响应内容:", response.text)        
 else:
     print("请先设置Cookie")
-    # if telegram_bot_token and chat_id:
-        # telegram_Bot(telegram_bot_token, chat_id, "❌BinCloud的cookie已失效，请重新抓取!")
+    
