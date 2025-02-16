@@ -31,4 +31,6 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           CHAT_ID: ${{ secrets.CHAT_ID }}
           THREAD_ID: ${{ secrets.THREAD_ID }}
+          X_TOKEN: ${{secrets.X_TOKEN}}
+          USERID: ${{secrets.USERID}}
         run: python nodeloc_signin.py
